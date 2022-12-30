@@ -11,6 +11,16 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-pretendard)", ...fontFamily.sans],
       },
+      colors: {
+        apple: {
+          black: "#000000",
+          darkGray: "#333333",
+          gray: "#D6D6D6",
+          lightGray: "#F5F5F7",
+          white: "#FFFFFF",
+          blue: "#2997FF",
+        },
+      },
     },
   },
   plugins: [],
