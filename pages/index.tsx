@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { tw } from "utils/tailwindMerge";
 
 export default function Home() {
   return (
