@@ -1,8 +1,9 @@
 import { Box } from "components";
+import { NextPage } from "next";
 import Head from "next/head";
 import { tw } from "utils/tailwindMerge";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -20,4 +21,5 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+export default Home;
